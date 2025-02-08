@@ -1,10 +1,11 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import { StyleSheet, Text, View } from 'react-native';
+const testImg = require("./assets/Untitled_Artwork.jpg");
 
 const _layout = () => {
   return (
     <View style={styles.container}>
       <Text>Song name</Text>
+      <image source ={testImg}/>
     </View>
   );
 }
