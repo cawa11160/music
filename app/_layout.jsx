@@ -1,22 +1,20 @@
-import { StyleSheet, Text, View } from 'react-native';
-import {Link} from 'expo-router';
+import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
 const _layout = () => {
   return (
-    <view style={styles.container}>
-      <Text>test!</Text>
-    </view>
+    <View style={styles.container}>
+      <Text>Song name</Text>
+    </View>
   );
 }
 
 export default _layout
 
 const styles = StyleSheet.create({
-  container:{
-    flex: 1,
-    backgroundColour: '#FFFFFF',
-    alignItems: 'center',
-    justifyContent: 'center',
+  container: {flex: 1, 
+    padding: 180,
+    backgroundColour:"#fffff",
+    alignItems:'flex-end'
   }
 })
